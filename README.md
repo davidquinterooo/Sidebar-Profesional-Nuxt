@@ -2,6 +2,8 @@
 
 Este repositorio contiene un componente de **Sidebar** profesional, diseñado con un enfoque minimalista y moderno. Es ideal para aplicaciones administrativas o dashboards que requieren una navegación fluida y responsiva.
 
+![sidebar](https://github.com/davidquinterooo/Sidebar-Profesional-Nuxt/blob/ff52edb8948ae27736a2c1d1aa6799ecf164f1ad/Captura%20desde%202026-05-26%2011-16-16.png)
+
 ## Características
 
 - **Diseño Moderno:** Estética limpia con bordes suaves y tipografía legible.
