@@ -1,12 +1,39 @@
-# Nuxt Minimal Starter
+# Sidebar moderno y minimalista para Nuxt
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este repositorio contiene un componente de **Sidebar** profesional, diseñado con un enfoque minimalista y moderno. Es ideal para aplicaciones administrativas o dashboards que requieren una navegación fluida y responsiva.
 
+## Características
+
+- **Diseño Moderno:** Estética limpia con bordes suaves y tipografía legible.
+- **100% Responsivo:** Utiliza el sistema de rejilla y Offcanvas de Bootstrap para una experiencia perfecta en móviles y escritorio.
+- **Enrutamiento (Routing):** Implementado con `NuxtLink` para aprovechar la navegación instantánea de Nuxt.
+- **Fácil Integración:** Código modular listo para copiar y pegar en cualquier proyecto Nuxt.
+- **Menús Colapsables:** Gestión de submenús organizada para mejorar la experiencia de usuario.
+
+## Tecnologías
+
+- Nuxt - Framework de Vue.js para la web.
+- Bootstrap 5 - Framework de CSS para diseño responsivo.
+- Bootstrap Icons - Librería de iconos oficial de Bootstrap.
+
+## 📦 Configuración Rápida
+
+### 1. Instalación
+```
+npm install bootstrap bootstrap-icons
+```
+### nuxt.config.ts:
+```
+export default defineNuxtConfig({
+  css: [
+    'bootstrap/dist/css/bootstrap.min.css',
+    'bootstrap-icons/font/bootstrap-icons.css'
+  ]
+})
+```
 ## Setup
 
-Make sure to install dependencies:
-
-```bash
+```
 # npm
 npm install
 
@@ -22,8 +49,6 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
-
 ```bash
 # npm
 npm run dev
@@ -37,39 +62,3 @@ yarn dev
 # bun
 bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
