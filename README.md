@@ -3,6 +3,7 @@
 Este repositorio contiene un componente de **Sidebar** profesional, diseñado con un enfoque minimalista y moderno. Es ideal para aplicaciones administrativas o dashboards que requieren una navegación fluida y responsiva.
 
 ![sidebar](https://github.com/davidquinterooo/Sidebar-Profesional-Nuxt/blob/ff52edb8948ae27736a2c1d1aa6799ecf164f1ad/Captura%20desde%202026-05-26%2011-16-16.png)
+![sidebar](https://github.com/davidquinterooo/Sidebar-Profesional-Nuxt/blob/03d9c6f4ab20a989b3170a1a6bdab3ed21fb6e81/Captura%20desde%202026-05-26%2011-12-29.png)
 
 ## Características
 
@@ -20,7 +21,7 @@ Este repositorio contiene un componente de **Sidebar** profesional, diseñado co
 
 ## Configuración Rápida
 
-### 1. Instalación
+### Instalación
 ```
 npm install bootstrap bootstrap-icons
 ```
