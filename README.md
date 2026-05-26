@@ -16,7 +16,7 @@ Este repositorio contiene un componente de **Sidebar** profesional, diseñado co
 - Bootstrap 5 - Framework de CSS para diseño responsivo.
 - Bootstrap Icons - Librería de iconos oficial de Bootstrap.
 
-## 📦 Configuración Rápida
+## Configuración Rápida
 
 ### 1. Instalación
 ```
