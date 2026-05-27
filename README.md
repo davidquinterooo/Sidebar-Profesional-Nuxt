@@ -3,7 +3,7 @@
 Este repositorio contiene un componente de **Sidebar** profesional, diseñado con un enfoque minimalista y moderno. Es ideal para aplicaciones administrativas o dashboards que requieren una navegación fluida y responsiva.
 
 ![sidebar](https://github.com/davidquinterooo/Sidebar-Profesional-Nuxt/blob/2d0991cb1d65b3afbd8352027e33b19945a69972/Captura%20desde%202026-05-27%2012-21-45.png)
-![sidebar](https://github.com/davidquinterooo/Sidebar-Profesional-Nuxt/blob/88ca747670c68d80b93f5bc946978513c14a778e/Captura%20desde%202026-05-27%2012-20-29.png) ![sidebar](https://github.com/davidquinterooo/Sidebar-Profesional-Nuxt/blob/9bd65d62f8427aded17069a537d59f9fb19e3084/Captura%20desde%202026-05-26%2011-12-46.png)
+![sidebar](https://github.com/davidquinterooo/Sidebar-Profesional-Nuxt/blob/88ca747670c68d80b93f5bc946978513c14a778e/Captura%20desde%202026-05-27%2012-20-29.png) ![sidebar](https://github.com/davidquinterooo/Sidebar-Profesional-Nuxt/blob/3b08dcfef66eeab1a72eee8b7b3fcd79e349df9f/Captura%20desde%202026-05-27%2012-20-49.png)
 
 ## Características
 
