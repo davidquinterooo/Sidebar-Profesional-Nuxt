@@ -1,0 +1,153 @@
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+.bg-light {
+    background-color: #003366 !important;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.b-example-divider {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+    vertical-align: -.125em;
+    pointer-events: none;
+    fill: currentColor;
+}
+
+.dropdown-toggle { outline: 0; }
+
+.nav-flush .nav-link {
+    border-radius: 0;
+}
+
+.btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .65);
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-toggle:hover,
+.btn-toggle:focus {
+    color: rgba(0, 0, 0, .85);
+    background-color: lightgray;
+}
+
+.btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, .85);
+}
+
+.btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+    display: inline-flex;
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+}
+
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+    background-color: #0055AA;
+}
+
+.scrollarea {
+    overflow-y: auto;
+}
+
+.fw-semibold { font-weight: 600; }
+
+.lh-tight { line-height: 1.25; }
+
+/*************************************************
+ * Estilos para el menú desplegable
+ *************************************************
+ */
+
+/* Estado inicial: el icono tiene una transición suave */
+.nav-link .bi-chevron-down {
+    transition: transform 0.3s ease;
+}
+
+/* Cuando el menú se expande, rotamos el icono 180 grados */
+.nav-link[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+}
+
+/********************************************
+ * Efectos hover para los enlaces del sidebar
+ ********************************************
+ */
+
+/* Efecto hover para los enlaces principales del sidebar
+ */
+.sidebar .nav-pills .nav-link:hover,
+.sidebar .dropdown > a.dropdown-toggle:hover {
+    background-color: #0055AA; /* Un gris muy sutil */
+    color: #000000 !important; /* Oscurece un poco el texto al pasar el cursor */
+}
+
+/* Efecto hover para el botón desplegable de Customers. */
+.sidebar .btn.dropdown-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #000000 !important;
+}
+
+/* Opcional: Agrega una transición suave a todos los elementos interactivos del
+*  sidebar
+*/
+.sidebar .nav-link,
+.sidebar .btn.dropdown-toggle,
+.sidebar .btn-toggle-nav a,
+.sidebar .dropdown > a.dropdown-toggle {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Estilos para el separador (hr) dentro del sidebar */
+.sidebar hr {
+    margin-left: -1rem;  /* Contrarresta exactamente el p-3 del contenedor */
+    margin-right: -1rem; /* Contrarresta exactamente el p-3 del contenedor */
+}
+
+.color-white  {
+  color: #FFFFFF !important; /* Blanco para texto */
+}
+
+.navbar-toggler {
+    background-color: #004488;
+}
+
+@media (min-width:991px){
+    .sidebar-desk{
+        display: none;
+    }
+}

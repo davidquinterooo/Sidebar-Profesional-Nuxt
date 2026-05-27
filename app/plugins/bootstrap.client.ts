@@ -1,10 +1,5 @@
-import { defineNuxtPlugin } from '#app'
-import * as bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
-export default defineNuxtPlugin((_nuxtApp) => {
-    return {
-        provide: {
-        bootstrap: bootstrap
-        }
-    }
+export default defineNuxtPlugin(() => {
+  // Ahora Bootstrap está disponible en el cliente
 })
